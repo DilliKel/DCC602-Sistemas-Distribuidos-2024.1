@@ -15,7 +15,7 @@ trocadas com a biblioteca base64.
     threading
 
 ### Teste da comunicação
-![teste_chat.png]
+![teste_chat.png] (Atividade Prática 01 - ClienteServidorPython/teste_chat.png)
 
 #### Utilizado o comando 
       sudo tcpdump -i any 'port 5000'
