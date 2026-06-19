@@ -4,7 +4,7 @@
 # %%
 import telebot
 
-CHAVE_API = "TELEGRAM_BOT_TOKEN_AQUI"
+CHAVE_API = os.environ.get("TELEGRAM_BOT_TOKEN", "TELEGRAM_BOT_TOKEN_AQUI")
 
 bot = telebot.TeleBot(CHAVE_API)
 
